@@ -1,0 +1,22 @@
+Connecting...
+
+Pinging Redis server on redis:6379...
+Connected.
+Ready to execute commands.
+>> zrevrange popular:ItemID 0 5
+
+1) "101"
+2) "103"
+3) "102"
+4) "112"
+5) "110"
+6) "105"
+>> zrevrange popular:Title 0 5
+
+1) "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+2) "Mens Cotton Jacket"
+3) "Mens Casual Premium Slim Fit T-Shirts "
+4) "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive"
+5) "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s"
+6) "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet"
+
